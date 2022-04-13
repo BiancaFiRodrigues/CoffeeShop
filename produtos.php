@@ -7,6 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-     oieee
+    <? php
+        "name" : "Café Black Tucano Honey Coffee em grãos"
+        "price" : "36,90"
+        "options" : [
+            { "pequeno,medio,grande"}
+        
+        ],
+        "imagem" :"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cafestore.com.br%2Fcafe-black-tucano-honey-coffee-em-graos-250-g-2820%2Fp&psig=AOvVaw2L9PMqGm2hWKJTtQ_ibkp_&ust=1649940972376000&source=images&cd=vfe&ved=0CAcQjRxqFwoTCLjOpKCLkfcCFQAAAAAdAAAAABAG"
+    
+    }
 </body>
 </html>
