@@ -1,25 +1,32 @@
+body{
+    margin: 0;
 
+}
 
-.topnav{
-    background-color: #81561a;
-    overflow: hidden;
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #81561a;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav{
     float: center;
-    padding: 12px;
 }
+ nav ul{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
 
-.topnav a{
-    float: center;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-size: 17px;
-    padding: 7px 8px 7px 0px;
-    border-color: #6b4714;
-
-}
-
-.topnav a:hover{
-    background-color: white;
-    color:#81561a;
-}
-
+ nav li{
+     display: inline-block;
+ }
