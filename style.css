@@ -1,11 +1,10 @@
-body{
-    margin: 0;
-
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
 }
 
-.container{
-    width: 80%;
-    margin: 0 auto;
+.menu {
+    display: none;
 }
 
 header {
@@ -18,16 +17,10 @@ header::after {
     clear: both;
 }
 
-nav{
-    float: center;
+h5{
+    text-align: center;
 }
- nav ul{
-     margin: 0;
-     padding: 0;
-     list-style: none;
- }
 
- nav li{
-    display: inline-block;
-    
- }
+.w3-container{
+    padding: 50
+}
