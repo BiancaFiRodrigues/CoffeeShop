@@ -8,7 +8,7 @@ body, html {
 }
 
 header {
-    background: #81561a;
+    background-color:darkred;
 }
 
 header::after {
@@ -17,10 +17,11 @@ header::after {
     clear: both;
 }
 
-h5{
-    text-align: center;
+header::before {
+    background-color:aqua;
 }
 
-.w3-container{
-    padding: 50
+h5{
+    text-align: center;
+    background-color: brown;
 }
